@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+header, footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    color: #777777;
+}
+
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+
+.descricao {
+    width: 70%;
+    line-height: 1.5;
+    font-family: Arial, sans-serif;
+    font-size: 16 px;
+    text-align: justify;
+    color: #777777;
+}
+
+
+
+.foto {
+    width: 25%;
+}
+
+
+
+.foto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+
+h2 {
+    margin-top: 80px;
+    padding: 20px;
+    text-align: center;
+    color: #777777;
+}
+
+
+
+.certificado {
+    text-align: center;
+    padding: 30px;
+}
+
+
+
+.certificado img {
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+
+a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #777777;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+
+a:hover {
+    background-color: #999999;
+}
+
+
+
+.botao-voltar {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    background-color: #777777;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    z-index: 1000;
+}
+
+
+
+.botao-voltar:hover {
+    background-color: #b3b3b3;
+}
